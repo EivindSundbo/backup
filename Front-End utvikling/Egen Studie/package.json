@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "jsdoc": "^4.0.0"
+  },
+  "scripts": {
+    "docs": "jsdoc -c ./conf.json -r"
+  }
+}
+

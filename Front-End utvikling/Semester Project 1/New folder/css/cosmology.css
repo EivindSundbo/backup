@@ -1,0 +1,88 @@
+.moons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moons img {
+  width: 100%;
+}
+.moons h1,
+.moons p {
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.moons h1 {
+  font-size: 7vw;
+  top: 15%;
+}
+
+.moons p {
+  bottom: 15%;
+  font-size: 5vw;
+}
+
+.vr,
+.telescope {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.vr p,
+.telescope p {
+  color: white;
+  transform: translate(-50%, -50%);
+  top: 13%;
+  left: 50%;
+  position: absolute;
+  width: 70%;
+}
+
+main > p {
+  display: none;
+}
+
+/******MEDIA QUERY******/
+
+@media only screen and (max-width: 1080px) {
+  .vr p,
+  .telescope p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .moons h1 {
+    font-size: 50px;
+  }
+  .moons p {
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .vr,
+  .telescope {
+    width: 40%;
+    margin-top: -50px;
+  }
+
+  main > p {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  main > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

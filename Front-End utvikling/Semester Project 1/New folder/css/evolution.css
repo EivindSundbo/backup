@@ -1,0 +1,120 @@
+h1 {
+  text-align: center;
+}
+
+.div1 {
+  display: none;
+}
+
+.darwin {
+  margin: 0 auto;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.darwin_img {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.darwin_img img {
+  width: 90%;
+}
+
+.header2 {
+  display: none;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.div2 img {
+  justify-content: center;
+  width: 100%;
+}
+
+/******MEDIA QUERY******/
+
+@media only screen and (min-width: 768px) {
+  .header1 {
+    display: none;
+  }
+
+  .header2 {
+    display: block;
+  }
+
+  .darwin {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .darwin_text,
+  .darwin_img {
+    flex: 1;
+  }
+
+  .skeleton {
+    display: flex;
+  }
+
+  .div1 {
+    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+  .div1 img {
+    margin: 0 auto;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .div1,
+  .div2 {
+    margin: 5px;
+  }
+
+  .div2 {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .div2 div,
+  .div2 img {
+    flex: 1;
+  }
+
+  .div2 div {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/*.div2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .div2 img {
+    justify-content: center;
+    width: 100%;
+  }*/

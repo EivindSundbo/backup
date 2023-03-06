@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.logo div {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.logo div {
+  font-weight: bold;
+}
+
+h3 {
+  text-decoration: underline;
+}

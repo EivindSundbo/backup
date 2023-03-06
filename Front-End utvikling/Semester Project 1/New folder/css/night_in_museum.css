@@ -1,0 +1,79 @@
+.moons {
+  display: none;
+}
+#img2 {
+  display: none;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main div img {
+  max-width: 100%;
+  max-height: 580px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  max-width: 96%;
+}
+
+.div2 {
+  width: 100%;
+  object-fit: cover;
+}
+
+.div2 img {
+  width: 100%;
+}
+
+/******MEDIA QUERY******/
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  main div img {
+    max-height: 750px;
+  }
+
+  #img1 {
+    display: none;
+  }
+  #img2 {
+    display: block;
+  }
+
+  .div1 {
+    flex: 1;
+    margin: 10px 10px 10px 0px;
+    align-items: left;
+  }
+
+  .div2 {
+    flex: 2;
+    margin: 10px 0px 10px 10px;
+  }
+
+  .div2 h2 {
+    margin-top: 50px;
+  }
+
+  .div2 p {
+    text-align: left;
+  }
+
+  .moons {
+    display: block;
+  }
+}

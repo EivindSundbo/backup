@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+.product-list h2 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+header,
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #fff;
+  padding: 10px;
+}
+
+.cta {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+}
+
+.cta-small {
+  padding: 8px 30px;
+  font-size: 0.8em;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.reviews {
+  background-color: #e8e8e8;
+}
+
+.featured__products {
+  background-color: #fbfbfb;
+}
+
+.cta-sale {
+  background-color: #127300;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Home page */
+.welcome {
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+  position: relative;
+}
+
+.welcome_content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+}
+
+.header {
+  display: flex;
+}
+
+.selling-points {
+  margin: 50px auto;
+}
+
+.reviews__content,
+.selling-points {
+  max-width: 1000px;
+  display: flex;
+}
+
+.selling-points > *,
+.reviews__content > * {
+  flex: 1;
+}
+
+.selling-points__images {
+  border-radius: 100px;
+  width: 100%;
+}
+
+.reviews {
+  text-align: center;
+  padding: 50px;
+}
+
+.reviews__content {
+  text-align: left;
+  margin: auto;
+}
+
+.reviews__content div {
+  margin: 50px;
+}
+
+.review__images {
+  width: 80px;
+  border-radius: 50%;
+  float: right;
+}
+
+.reviews_name {
+  display: block;
+}
+
+/* Contact page */
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}

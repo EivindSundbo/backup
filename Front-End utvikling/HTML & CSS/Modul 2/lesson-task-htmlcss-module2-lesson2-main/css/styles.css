@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+.product-list h2 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+.cta {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.reviews {
+  background-color: #e8e8e8;
+}
+
+.featured--products {
+  background-color: #fbfbfb;
+}
+
+.cta-sale {
+  background-color: #127300;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Home page */
+.welcome {
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+
+.selling-points__images {
+  border-radius: 100px;
+}
+
+.review__images {
+  border-radius: 50%;
+}
+
+/* Contact page*/
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
